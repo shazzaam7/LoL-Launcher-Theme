@@ -10,7 +10,7 @@ window.addEventListener('load', () => {
     var head = document.getElementsByTagName('head')[0];
  
     var style = document.createElement('link');
-    style.href = '/theme.css';
+    style.href = 'https://raw.githubusercontent.com/shazzaam7/LoL-Launcher-Theme/main/theme/theme.css';
     style.type = 'text/css';
     style.rel = 'stylesheet';
     head.append(style);
@@ -18,7 +18,7 @@ window.addEventListener('load', () => {
  
  function themeReload() {
     var style = document.createElement('link');
-    style.href = '/theme.css';
+    style.href = 'https://raw.githubusercontent.com/shazzaam7/LoL-Launcher-Theme/main/theme/theme.css';
     style.type = 'text/css';
     style.rel = 'stylesheet';
     head.append(style);
